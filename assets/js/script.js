@@ -20,26 +20,26 @@ var buttonD = document.getElementById("d");
 
 // Quiz question object
 var quizQuestions = [{
-    question: "How many elements can you apply an 'ID' attribute to?",
-    choiceA: "As many as you want",
-    choiceB: "3",
-    choiceC: "1",
-    choiceD: "128",
-    correctAnswer: "c"},
-  {
-    question: "What does DOM stand for?",
-    choiceA: "Document Object Model",
-    choiceB: "Display Object Management",
-    choiceC: "Digital Ordinance Model",
-    choiceD: "Desktop Oriented Mode",
-    correctAnswer: "a"},
-   {
-    question: "What is used primarily to add styling to a web page?",
-    choiceA: "HTML",
-    choiceB: "CSS",
-    choiceC: "Python",
-    choiceD: "React.js",
+    question: "Commonly used data types DO NOT include",
+    choiceA: "strings",
+    choiceB: "booleans",
+    choiceC: "alerts",
+    choiceD: "numbers",
     correctAnswer: "b"},
+  {
+    question: "Arrays in Javascript can be used for?",
+    choiceA: "number of strings",
+    choiceB: "other arrays",
+    choiceC: "booleans",
+    choiceD: "all of the above",
+    correctAnswer: "d"},
+   {
+    question: "The condition in an If/else statement is enclosed with what?",
+    choiceA: "quotes",
+    choiceB: "curly brackets",
+    choiceC: "parenthesis",
+    choiceD: "square brackets",
+    correctAnswer: "c"},
     {
     question: "What HTML tags are JavaScript code wrapped in?",
     choiceA: "&lt;div&gt;",
@@ -71,7 +71,7 @@ var quizQuestions = [{
         
     
     ];
-// Other global variables
+
 var finalQuestionIndex = quizQuestions.length;
 var currentQuestionIndex = 0;
 var timeLeft = 76;
